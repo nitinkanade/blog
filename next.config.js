@@ -1,10 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
     output: 'export', // Enable static export
     distDir: 'dist',
     images: {
         unoptimized: true
-      }
-}
-
-export default nextConfig
+    }
+};
